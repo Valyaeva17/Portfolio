@@ -1,0 +1,335 @@
+
+
+.fa-user,.fa-shopping-cart{
+    font-size: 200% !important;
+    margin-right: 20px;
+}
+.modal-content{
+    border: none !important;
+}
+nav>div:first-child{
+    width: 80%;
+}
+.user{
+    width: 10%;
+}
+.logo{
+    width: 60%;
+    margin-left: 10%;
+}
+.cllogo{
+    width: 40%;
+}
+.container-fluid{
+    justify-content: flex-start !important;
+}
+.nav-link{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar{
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+}
+hr{
+    width: 70%;
+    background: black;
+    opacity: 1;
+}
+h3{
+    font-family: 'EB Garamond', serif; 
+    font-size: 250%;
+}
+.cont1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.text-cont{
+    text-align: center;
+    font-size: 130%;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.polosa{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.card-img-top1{
+    width: 65px;
+    margin: 15px;
+}
+.card-img-top{
+    width: 65px;
+    margin: 10px;
+}
+.card-text{
+    font-size: 25px;
+    font-family: inter light;
+}
+.cartov{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin: 50px; */
+}
+.mainCartov>div:last-child{
+    margin-top: 60px;
+}
+.card-soc{
+    background-color: #d9d9d95b;
+    /* width: 450px; */
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    margin-top: 5%;
+}
+.ocom{
+    color: #F89494;
+    margin: 30px;
+    font-size: 48px;
+    margin-top: 100px;
+}
+.cartaloco{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    border: solid black 1px;
+    width: 100%;
+}
+.loco2{
+    padding: 3%;
+   width: 100%;
+}
+.loco2>iframe{
+    width: 100%;
+}
+.avtora{
+    color: black !important;
+}
+
+
+/* zxcvsdfvdsgsdgsgsgsgsgsgsg */
+footer{
+    background-image: url('../img/Rectangle\ 36.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+footer>div{
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo2{
+    width: 50%;
+}
+.foot2{
+    font-family: 'EB Gramond', serif; 
+    color: #8C8B8B;
+    font-size: 160%;
+    margin-top: 1%;
+}
+.foot1{
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 30%;
+}
+.telefon{
+    font-family: 'EB Gramond', serif; 
+    font-size: 160%;
+}
+.navfoot{
+    width: 70%;
+}
+.navul{
+    display: flex;
+}
+.navul>li{
+    font-family: 'EB Gramond', serif; 
+    margin-left: 8%;
+    font-size: 180%;
+    list-style: none;
+}
+li>a{
+    color: #999796;
+    font-family: 'EB Gramond', serif;
+    font-size: 90%;
+}
+li>p{
+    font-size: 130%;
+}
+
+/* bmcschsdghcjgsahcshcg */
+@media (min-width: 820px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20% !important;
+    }
+    
+    .footglav{
+       display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .logo2{
+        width: 130% !important;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    h3{
+        font-size: 190%;
+    }
+    .text-cont{
+        font-size: 90%;
+    }
+    .card-text{
+        font-size: 17px;
+    }
+}
+@media (min-width: 320px) and (max-width: 550px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 80% !important;
+    }
+    .fotimg{
+        width: 20%;
+    }
+    .telefon{
+        font-size: 90% !important;
+    }
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20% !important;
+    }
+    .fa{
+        width: 50% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 90% !important;
+    }
+    .fa-user, .fa-shopping-cart {
+        margin-right: 3px !important;
+        font-size: 170% !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    h3{
+        font-size: 90%;
+        text-align: center;
+    }
+    .text-cont{
+        font-size: 70%;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .card-soc{
+        width: 45%;
+    }
+}
+@media (min-width: 550px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 130% !important;
+        text-align: center;
+    }
+    .telefon{
+       text-align: center; 
+       font-size: 160% !important; 
+    }
+    .fotimg{
+        width: 30%;
+    }
+    
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .imgon{
+        width: 90%;
+    }
+    h3{
+        font-size: 200%;
+        text-align: center;
+    }
+    .text-cont{
+        font-size: 100%;
+    }
+    .card-text{
+        font-size: 90%;
+    }
+}

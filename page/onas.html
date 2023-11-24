@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/onas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/corz.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <a href="" class="cllogo"><img class="logo" src="../img/logo.png" alt=""></a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/catalog.html">Каталог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/onas.html">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/contact.html">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="user">
+                <a class="avtora" href="../page/avtoriz.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a class="avtora"data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </nav>
+    </header>
+    <script src="https://use.fontawesome.com/f099e802bb.js"></script>
+    <main class="container">
+        <div class="onasimg">
+            <div>
+              <img class="imgon zoomIn"  src="../img/onas.png" alt="">
+            </div>
+          <h2 id="stat"></h2>
+            <div class="pop">
+                <p>На сегодняшний день на прилавках можно увидеть 
+                    большой выбор различной косметики на любой вкус
+                    и кошелек. Но если посмотреть на состав, то можно 
+                    увидеть какое огромное количество ингредиентов в
+                    него входит и не все они полезны для нашей кожи.
+                    Именно поэтому наша огромная команда профессионалов
+                    стараются подобрать натуральные и противоаллергические 
+                    ингредиенты для нашей продукции </p>
+            </div>
+            </div>
+
+            <div class="polosa">
+                <hr class="pol">
+              </div>
+              <div><h5 id="fact" class="nabor">Несколько фактов <br>
+                о нашей лаборатории</h5></div>
+
+                <div class="glavfact">
+                    <div class="fackt">
+                        <div>
+                           <img class="onasimg2" src="../img/Новая папка/fackt1.png" alt="">  
+                        </div>
+                        <div class="podclass1">
+                          <h3>Факт 1</h3>
+                        <p class="text-podclass">Мы производим 
+                            нашу косметику уже
+                            5 лет и знаем, что 
+                            нужно потребителю</p>  
+                        </div>
+                        
+                    </div>
+
+                    <div class="fackt2">
+                        <div>
+                           <img class="onasimg2"  src="../img/Новая папка/fackt2.png" alt="">  
+                        </div>
+                        <div class="podclass2">
+                          <h3>Факт 2</h3>
+                        <p class="text-podclass">Наше производство
+                            полного цикла: мы
+                            разрабатываем, изготавливаем, фасуем и упаковываем</p>  
+                        </div>
+                        
+                    </div>
+
+                    <div class="fackt">
+                        <div>
+                           <img class="onasimg2"  src="../img/Новая папка/fackt3.png" alt="">  
+                        </div>
+                        <div class="podclass1">
+                          <h3>Факт 3</h3>
+                        <p class="text-podclass">У нас собственная
+                            лаборатория для разработки косметических
+                            продуктов</p>  
+                        </div>
+                        
+                    </div>
+
+                    <div class="fackt2">
+                        <div>
+                           <img class="onasimg2"  src="../img/Новая папка/fackt4.png" alt="">  
+                        </div>
+                        <div class="podclass2">
+                          <h3>Факт 4</h3>
+                        <p class="text-podclass">Мы придерживаемся системы контроля качества по 23 пунктам на каждом этапе производства
+                        </p>  
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+          
+             <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+              <div class="modal-body">
+                <section class="h-100 h-custom">
+      
+                  <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-12">
+                      <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                        <div class="card-body p-0">
+                          <div class="row g-0">
+                            <div class="col-lg-8">
+                              <div class="p-5">
+                                <div class="d-flex justify-content-between align-items-center mb-5">
+                                  <h1 class="fw-bold mb-0 text-black">Корзина</h1>
+                                  <h6 class="mb-0 text-muted">3 товара</h6>
+                                </div>
+                                <hr class="my-4">
+              
+                                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                  <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img
+                                      src="../img/catal/ct2.png"
+                                      class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <h6 class="text-muted">Для лица</h6>
+                                    <h6 class="text-black mb-0">Пенка для умывания</h6>
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelefctor('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus"></i>
+                                    </button>
+              
+                                    <input id="form1" min="0" name="quantity" value="1" type="number"
+                                      class="form-control form-control-sm" />
+              
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus"></i>
+                                    </button>
+                                  </div>
+                                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-0">Р 1  600</h6>
+                                  </div>
+                                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a href="#!" class="text-muted"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                                  </div>
+                                </div>
+              
+                                <hr class="my-4">
+              
+                                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                  <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img
+                                      src="../img/catal/ct7.png"
+                                      class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <h6 class="text-muted">Ампулы</h6>
+                                    <h6 class="text-black mb-0">АМПУЛЫ 4-недельный курс</h6>
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus"></i>
+                                    </button>
+              
+                                    <input id="form1" min="0" name="quantity" value="1" type="number"
+                                      class="form-control form-control-sm" />
+              
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus"></i>
+                                    </button>
+                                  </div>
+                                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-0">Р 4 000</h6>
+                                  </div>
+                                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a href="#!" class="text-muted"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                                  </div>
+                                </div>
+              
+                                <hr class="my-4">
+              
+                                <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                  <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img
+                                      src="../img/catal/ct11.png"
+                                      class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <h6 class="text-muted">Декаративная косметика</h6>
+                                    <h6 class="text-black mb-0">Кремовый Бронзатор</h6>
+                                  </div>
+                                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus"></i>
+                                    </button>
+              
+                                    <input id="form1" min="0" name="quantity" value="1" type="number"
+                                      class="form-control form-control-sm" />
+              
+                                    <button class="btn btn-link px-2"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus"></i>
+                                    </button>
+                                  </div>
+                                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-0">Р 2 500</h6>
+                                  </div>
+                                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a href="#!" class="text-muted"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                                  </div>
+                                </div>
+              
+                                <hr class="my-4">
+              
+                                <div class="pt-5">
+                                  <h6 class="mb-0"><a href="#!" class="text-body"><i
+                                        class="fas fa-long-arrow-alt-left me-2"><a href="../page/catalog.html"></i>В каталог</a></h6></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 bg-grey">
+                              <div class="p-5">
+                                <h3 class="fw-bold mb-5 mt-2 pt-1">Оплата</h3>
+                                <hr class="my-4">
+  
+                                <h5 class="text-uppercase mb-3">Доставка</h5>
+              
+                                <div class="mb-4 pb-2">
+                                  <select class="select">
+                                    <option value="1">На дом</option>
+                                    <option value="2">В пункт выдачи</option>
+                                    <option value="3">Самовывоз</option>
+                                  </select>
+                                  <div class="mb-5">
+                                    <div class="form-outlin">
+                                      <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                                      <label class="form-label" for="form3Examplea2">Адресс</label>
+                                    </div>
+                                  </div>
+                                </div>
+              
+                                <h5 class="text-uppercase mb-3">Промокод</h5>
+              
+                                <div class="mb-5">
+                                  <div class="form-outline">
+                                    <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                                    <label class="form-label" for="form3Examplea2">Введите промокод</label>
+                                  </div>
+                                </div>
+              
+                                <hr class="my-4">
+              
+                               <button type="button" class="btn btn-dark btn-block btn-lg"
+                                  data-mdb-ripple-color="dark">Продолжить</button>
+              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+              </section>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+    </main>
+
+    <footer>
+      <div class="footglav">
+        <div class="foot1">
+          <img class="logo2" src="../img/logo.png" alt="">
+          <p class="foot2">Наши соц. сети</p>
+          <div style="justify-content: center;">
+            <img class="fotimg" src="../img/icon/vk.png" alt="">
+            <img class="fotimg" src="../img/icon/inst.png" alt="">
+            <img class="fotimg" src="../img/icon/twit.png" alt="">
+          </div>
+          <p class="foot2">Контактный телефон:</p>
+          <p class="telefon">+7-(915)-319-86-72</p>
+        </div>
+                <div class="navfoot">
+                  <ul class="navul">
+                    <li><p>Главная</p>
+                    <a href="../index.html#ampul">Ампулы</a><br>
+                  <a href="../index.html#sezon">Сезонное <br> предложение</a><br>
+                
+
+                    <li><p> Каталог</p> 
+                    <a href="../page/catalog.html#nabor">Наборы</a><br>
+                    <a href="../page/catalog.html#dec">Декаративная <br> косметика</a><br>
+                    <a href="../page/catalog.html#ampul2">Ампулы</a></li>
+                    <li><p>О нас</p> 
+                    <a href="#stat">Статьи</a><br>
+                    <a href="#fact">Несколько <br> фактов</a></li>
+                    <li><p>Контакты</p>
+                      <a href="../page/contact.html#obsv">Обрятная связь</a><br>
+                      <a href="../page/contact.html#loc">Где мы находимся</a></li>
+                  </ul>
+                </div>  
+      </div>
+    </footer>
+</body>
+</html>

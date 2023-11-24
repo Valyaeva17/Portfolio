@@ -1,0 +1,154 @@
+@media(min-width: 1440px) {
+    .container{
+       max-width: 1320px;
+    }
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 200% !important;
+    margin-right: 20px;
+}
+.modal-content{
+    border: none !important;
+}
+nav>div:first-child{
+    width: 80%;
+}
+.user{
+    width: 20%;
+}
+.logo{
+    width: 60%;
+}
+.cllogo{
+    width: 40%;
+}
+.container-fluid{
+    justify-content: flex-start !important;
+}
+.nav-link{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar{
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+}
+.avtora{
+    color: black !important;
+}
+.form-outlin{
+    margin-top: 3%;
+}
+.modal{
+    --bs-modal-width:fit-content;
+   
+    --bs-modal-bg:none;
+}
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 1440px) {
+    .h-custom {
+    height: 100px !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+
+
+
+footer{
+    background-image: url('../img/Rectangle\ 36.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+footer>div{
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo2{
+    width: 50%;
+}
+.foot2{
+    font-family: 'EB Gramond', serif; 
+    color: #8C8B8B;
+    font-size: 160%;
+    margin-top: 1%;
+}
+.foot1{
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 30%;
+}
+.telefon{
+    font-family: 'EB Gramond', serif; 
+    font-size: 160%;
+}
+.navfoot{
+    width: 70%;
+}
+.navul{
+    display: flex;
+}
+.navul>li{
+    font-family: 'EB Gramond', serif; 
+    margin-left: 8%;
+    font-size: 180%;
+    list-style: none;
+}
+li>a{
+    color: #999796;
+    font-family: 'EB Gramond', serif;
+    font-size: 90%;
+}
+li>p{
+    font-size: 130%;
+}
+@media (min-width: 320px) and (max-width: 550px){
+    .col-12{
+        width: 100%;
+    }
+    .text-uppercase{
+        font-size: 60%;
+    }
+    h5{
+        font-size: 60%;
+    }
+}
+

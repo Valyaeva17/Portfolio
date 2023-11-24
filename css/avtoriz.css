@@ -1,0 +1,278 @@
+@media(min-width: 1440px) {
+    .container{
+       max-width: 1320px;
+    }
+}
+.modal-content{
+    border: none !important;
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 200% !important;
+    margin-right: 20px;
+}
+nav>div:first-child{
+    width: 80%;
+}
+.user{
+    width: 10%;
+}
+.logo{
+    width: 60%;
+    margin-left: 10%;
+}
+.cllogo{
+    width: 40%;
+}
+.container-fluid{
+    justify-content: flex-start !important;
+}
+.nav-link{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar{
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+}
+.avtora{
+    color: black !important;
+}
+h2{
+    font-family: 'EB Garamond', serif;
+      
+    margin-top: 5%;
+
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+.plach{
+    width: 100%;
+    border: solid black 2px;
+    margin: 1%;
+    background-color: #F0F0F0;
+    height: 40px;
+}
+input{
+    color: black;
+    border: 2px;
+}
+.poddan{
+    display: flex;
+    justify-content: center;
+}
+.cnopprod{
+    background-color: #D9D9D9;
+    width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.cnp{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+
+footer{
+    background-image: url('../img/Rectangle\ 36.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+footer>div{
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo2{
+    width: 70% !important;
+}
+.foot2{
+    font-family: 'EB Gramond', serif; 
+    color: #8C8B8B;
+    font-size: 160%;
+    margin-top: 1%;
+}
+.foot1{
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 30%;
+}
+.telefon{
+    font-family: 'EB Gramond', serif; 
+    font-size: 160%;
+}
+.navfoot{
+    width: 70%;
+}
+.navul{
+    display: flex;
+}
+.navul>li{
+    font-family: 'EB Gramond', serif; 
+    margin-left: 8%;
+    font-size: 180%;
+    list-style: none;
+}
+li>a{
+    color: #999796;
+    font-family: 'EB Gramond', serif;
+    font-size: 90%;
+}
+li>p{
+    font-size: 130%;
+}
+.cnp{
+    text-decoration: none;
+    color: black;
+}
+@media (min-width: 820px) and (max-width: 1050px){
+    .navul{
+        display: none;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20%;
+    }
+    
+    .footglav{
+       display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .logo2{
+        width: 130%;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    h2{
+        font-size: 120%;
+    }
+    .cnopprod{
+        height: 50%;
+    }
+}
+@media (min-width: 320px) and (max-width: 550px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 80% !important;
+    }
+    .fotimg{
+        width: 20%;
+    }
+    .telefon{
+        font-size: 90% !important;
+    }
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20% !important;
+    }
+    .fa{
+        width: 50% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 90% !important;
+    }
+    .fa-user, .fa-shopping-cart {
+        margin-right: 3px !important;
+        font-size: 170% !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    .cnopprod{
+        width: 40%;
+        height: 40px;
+    }
+    .cn{
+        font-size: 110%;
+    }
+}
+@media (min-width: 550px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 130% !important;
+        text-align: center;
+    }
+    .telefon{
+       text-align: center; 
+       font-size: 160% !important; 
+    }
+    .fotimg{
+        width: 30%;
+    }
+    
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .cnopprod{
+        width: 40%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .cn{
+        font-size: 150%;
+    }
+}

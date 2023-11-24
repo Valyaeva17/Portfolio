@@ -1,0 +1,565 @@
+body{
+    margin-top: 90px;
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 200% !important;
+    margin-right: 20px;
+}
+nav>div:first-child{
+    width: 80%;
+}
+.user{
+    width: 10%;
+}
+.logo{
+    width: 60%;
+}
+.cllogo{
+    width: 40%;
+}
+.container-fluid{
+    justify-content: flex-start !important;
+}
+.nav-link{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar{
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+}
+.nabor{
+    font-size: 250%;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+}
+hr{
+    width: 70%;
+    background: black;
+    opacity: 1;
+}
+.polosa{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.nabor1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.avtora{
+    color: black !important;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 370%;
+}
+ .nab2{
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 370%;
+} 
+.htnab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gra{
+    
+   margin-left: 3%;
+}
+p{
+    font-family: 'EB Garamond', serif; 
+    font-size: 200%; 
+    width: 76%;
+}
+.opnab2{
+    font-family: 'EB Garamond', serif; 
+    font-size: 200%; 
+    width: 80%; 
+}
+.opnab{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    border: none;
+    text-align: center;
+    margin: 5%;
+    
+}
+h4{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'EB Garamond', serif;
+}
+.card-text{
+   font-size: 150%;
+   text-align: center;
+
+}
+.cardglav{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-body{
+    padding: 0;
+}
+.card-img-top{
+    height: 320px;
+    width: 320px;
+}
+.corzcat{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.corzcat>i{
+    margin: 0% !important;
+    font-size: 350% !important;
+}
+.cardedin{
+    background-color: #D9D9D9;
+    display: flex;
+    border-radius: 10px;
+    width: 50%;
+}
+.cardedin>div{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardniz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.pusto{
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+.pusto+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+.cardedin>div:nth-child(2){
+    width: 60%;
+}
+
+
+footer{
+    background-image: url('../img/Rectangle\ 36.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+footer>div{
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo2{
+    width: 70% !important;
+}
+.foot2{
+    font-family: 'EB Gramond', serif; 
+    color: #8C8B8B;
+    font-size: 160%;
+    margin-top: 1%;
+}
+.foot1{
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 30%;
+}
+.telefon{
+    font-family: 'EB Gramond', serif; 
+    font-size: 160%;
+}
+.navfoot{
+    width: 70%;
+}
+.navul{
+    display: flex;
+}
+.navul>li{
+    font-family: 'EB Gramond', serif; 
+    margin-left: 8%;
+    font-size: 180%;
+    list-style: none;
+}
+li>a{
+    color: #999796;
+    font-family: 'EB Gramond', serif;
+    font-size: 90%;
+}
+li>p{
+    font-size: 130%;
+}
+.modcr1{
+    display: flex;
+}
+.modimg1{
+    width: 30%;
+}
+.modtx1{
+    width: 70%;
+    background: #ECE9E9;
+}
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+    border: none;
+}
+.aaa{
+background: #fff;
+}
+.modal-body{
+    padding: 0;
+}
+.naz1{
+    font-size: 250% ;
+}
+.card-text01{
+    font-size: 200%;
+}
+.corzcat2{
+    width: 20%;
+}
+.cardedin2{
+    width: 20%;
+}
+
+@media (min-width: 820px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20% !important;
+    }
+    
+    .footglav{
+       display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .logo2{
+        width: 130% !important;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .nabimg{
+        width: 90%;
+    }
+    h3{
+        font-size: 200%;
+    }
+    h3+p{
+        font-size: 120%;
+    }
+    p{
+        width: 100%;
+    }
+    .opnab2{
+        width: 100%;
+    }
+    .nab2{
+         font-size: 200%; 
+    }
+    .card-img-top{
+        width: 190px;
+        height: 190px;
+    }
+    h4{
+        font-size: 180%;
+    }
+    .card-text{
+        font-size: 120%;
+    }
+    .corzcat>i{
+        font-size: 200% !important;
+    }
+    .corzcat{
+        width: 32%;
+        align-items: center;
+    }
+    .cardedin{
+        width: 40%;
+    }
+    .cardniz{
+        justify-content: space-around;
+    }
+    .nabor{
+        font-size: 190%;
+    }
+}
+@media (min-width: 320px) and (max-width: 550px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 80% !important;
+    }
+    .fotimg{
+        width: 20%;
+    }
+    .telefon{
+        font-size: 90% !important;
+    }
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20% !important;
+    }
+    .fa{
+        width: 50% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 90% !important;
+    }
+    .fa-user, .fa-shopping-cart {
+        margin-right: 3px !important;
+        font-size: 170% !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    .nabimg{
+        width: 100%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    h3+p{
+        font-size: 70%;
+    }
+    p{
+        font-size: 90%;
+        width: 100%;
+    }
+    .opnab2{
+        width: 100%;
+        font-size: 90%;
+    }
+    .nab2{
+         font-size: 100%; 
+    }
+    .card-img-top{
+        width: 90px;
+        height: 90px;
+    }
+    h4{
+        font-size: 80%;
+    }
+    .card-text{
+        font-size: 60%;
+    }
+    .corzcat>i{
+        font-size: 100% !important;
+    }
+    .fa-minus:before {
+        content: "\f068";
+        font-size: 60%;
+    }
+    .fa-plus:before {
+        content: "\f067";
+        font-size: 60%;
+    }
+    .pusto{
+        width: 1px;
+    }
+    .corzcat{
+        width: 32%;
+        align-items: center;
+    }
+    .cardedin{
+        width: 45%;
+    }
+    .cardniz{
+        justify-content: space-around;
+    }
+    .nabor{
+        font-size: 100%;
+    }
+}
+@media (min-width: 550px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 130% !important;
+        text-align: center;
+    }
+    .telefon{
+       text-align: center; 
+       font-size: 160% !important; 
+    }
+    .fotimg{
+        width: 30%;
+    }
+    
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .nabimg{
+        width: 90%;
+    }
+    h3{
+        font-size: 200%;
+    }
+    h3+p{
+        font-size: 120%;
+    }
+    p{
+        width: 100%;
+        font-size: 150%;
+    }
+    .opnab2{
+        width: 100%;
+        font-size: 150%;
+    }
+    .nab2{
+         font-size: 200%; 
+    }
+    .card-img-top{
+        width: 190px;
+        height: 190px;
+    }
+    h4{
+        font-size: 150%;
+    }
+    .card-text{
+        font-size: 120%;
+    }
+    .corzcat>i{
+        font-size: 200% !important;
+    }
+    .corzcat{
+        width: 32%;
+        align-items: center;
+    }
+    .cardedin{
+        width: 40%;
+    }
+    .cardniz{
+        justify-content: space-around;
+    }
+    .nabor{
+        font-size: 150%;
+    }
+}
+.cardedin>div:first-child,.cardedin>div:last-child{
+    cursor: pointer;
+}
+.modal-content{
+    border: none !important;
+}
+.corzcat{
+    cursor: pointer;
+}
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 

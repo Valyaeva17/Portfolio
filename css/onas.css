@@ -1,0 +1,399 @@
+@media(min-width: 1440px) {
+    .container{
+       max-width: 1320px;
+    }
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 200% !important;
+    margin-right: 20px;
+}
+nav>div:first-child{
+    width: 80%;
+}
+.modal-content{
+    border: none !important;
+}
+.user{
+    width: 10%;
+}
+.logo{
+    width: 60%;
+    margin-left: 10%;
+}
+.cllogo{
+    width: 40%;
+}
+.container-fluid{
+    justify-content: flex-start !important;
+}
+.nav-link{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar{
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+}
+.nabor{
+    font-size: 250%;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+}
+hr{
+    width: 70%;
+    background: black;
+    opacity: 1;
+}
+.onasimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+}
+.o{
+    display: flex;
+    justify-content: center;
+}
+.pop{
+    width: 903px;
+    font-family: 'EB Gramond', serif;
+    font-size: 200%;
+    align-items: center;
+    text-align: center;
+}
+.polosa{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.fackt{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+h3{
+    font-size: 200%;
+    font-family: 'EB Gramond', serif;
+    align-items: center;
+    padding: 0;
+}
+.podclass1{
+    font-family: 'EB Gramond', serif;
+    border: solid black 1px;
+    font-size: 200%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text-podclass{
+    text-align: center;
+}
+.fackt2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.podclass2{
+    font-family: 'EB Gramond', serif;
+    border: solid black 1px;
+    font-size: 200%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.glavfact{
+    margin-top: 10%;
+}
+.avtora{
+    color: black !important;
+}
+
+
+footer{
+    background-image: url('../img/Rectangle\ 36.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+footer>div{
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo2{
+    width: 70% !important;
+}
+.foot2{
+    font-family: 'EB Gramond', serif; 
+    color: #8C8B8B;
+    font-size: 160%;
+    margin-top: 1%;
+}
+.foot1{
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 30%;
+}
+.telefon{
+    font-family: 'EB Gramond', serif; 
+    font-size: 160%;
+}
+.navfoot{
+    width: 70%;
+}
+.navul{
+    display: flex;
+}
+.navul>li{
+    font-family: 'EB Gramond', serif; 
+    margin-left: 8%;
+    font-size: 180%;
+    list-style: none;
+}
+li>a{
+    color: #999796;
+    font-family: 'EB Gramond', serif;
+    font-size: 90%;
+}
+li>p{
+    font-size: 130%;
+}
+@media (min-width: 820px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20% !important;
+    }
+    
+    .footglav{
+       display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .logo2{
+        width: 130% !important;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .imgon{
+        width: 90%;
+    }
+    .pop{
+        font-size: 120%;
+        font-family: 'EB Gramond', serif;
+    }
+    .nabor{
+        font-size: 190%;
+    }
+    .onasimg2{
+        width: 100%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    .text-podclass{
+        font-size: 60%;
+    }
+    .onasimg>div:first-child{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 550px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 80% !important;
+    }
+    .fotimg{
+        width: 20%;
+    }
+    .telefon{
+        font-size: 90% !important;
+    }
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20% !important;
+    }
+    .fa{
+        width: 50% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 90% !important;
+    }
+    .fa-user, .fa-shopping-cart {
+        margin-right: 3px !important;
+        font-size: 170% !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    .imgon{
+        width: 90%;
+    }
+    .pop{
+        font-size: 90%;
+        font-family: 'EB Gramond', serif;
+    }
+    h5{
+        font-size: 70%;
+    }
+    h3{
+        font-size: 60%;
+    }
+    .nabor{
+        font-size: 150%;
+    }
+    .onasimg2{
+        width: 100%;
+        height: 100px;
+    }
+
+    .text-podclass{
+        font-size: 22%;
+    }
+    .onasimg>div:first-child{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 550px) and (max-width: 1050px){
+    .navul{
+        display: none !important;
+    }
+    .foot1{
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .foot2{
+        font-size: 130% !important;
+        text-align: center;
+    }
+    .telefon{
+       text-align: center; 
+       font-size: 160% !important; 
+    }
+    .fotimg{
+        width: 30%;
+    }
+    
+    .logo2{
+        width: 90% !important;
+    }
+    .footglav{
+        display: flex;
+         justify-content: center;
+         flex-wrap: wrap; 
+         align-content: center;
+    }
+    .user{
+        width: 20%;
+    }
+    .fa{
+        width: 150% !important;
+        display: revert !important;
+    }
+    .nav-link{
+        font-size: 120%;
+    }
+    .imgon{
+        width: 90%;
+    }
+    .pop{
+        font-size: 90%;
+        font-family: 'EB Gramond', serif;
+    }
+    h5{
+        font-size: 70%;
+    }
+    h3{
+        font-size: 60%;
+    }
+    .nabor{
+        font-size: 150%;
+    }
+    .onasimg2{
+        width: 100%;
+        height: 100px;
+    }
+
+    .text-podclass{
+        font-size: 30%;
+    }
+    .onasimg>div:first-child{
+        display: flex;
+        justify-content: center;
+    }
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
